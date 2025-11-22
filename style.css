@@ -263,9 +263,12 @@ footer {
 @media (max-width: 768px) {
     .hamburger {
         display: block;
+        font-size: 24px;
+        cursor: pointer;
     }
 
     .nav-links {
+        display: none;
         position: absolute;
         right: 0;
         top: 60px;
@@ -280,6 +283,7 @@ footer {
 
     .nav-links.active {
         transform: translateY(0);
+        display: block;
     }
 
     .nav-links li {
