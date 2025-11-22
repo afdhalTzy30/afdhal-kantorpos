@@ -294,3 +294,23 @@ footer {
         font-size: 2rem;
     }
 }
+/* MAPS STYLING */
+.map-container {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 320px;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* agar maps lebih kecil & rapi di HP */
+@media (max-width: 600px) {
+    .map-container iframe {
+        height: 260px;
+    }
+}
