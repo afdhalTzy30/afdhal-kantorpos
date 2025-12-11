@@ -89,6 +89,14 @@ body {
     padding-top: 60px;
 }
 
+.hero-logo {
+    width: 150px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 20px;
